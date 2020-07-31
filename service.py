@@ -11,8 +11,12 @@ def get_decorator_name():
 
 
 def get_file_names():
+    search_path = "./"
+    specified_dir = os.environ.get("SPECIFIED_DIR")
+    if specified_dir:
+        search_path = os.path.join(search_path, specified_dir)
     files = []
-    for dirname, subdirnames, file_names in os.walk("./"):
+    for dirname, subdirnames, file_names in os.walk(search_path):
         for file_name in file_names:
             if file_name.endswith(".py"):
                 files.append(os.path.join(dirname, file_name))

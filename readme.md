@@ -23,7 +23,8 @@ jobs:
         id: step_id
         uses: rohithpr/outermost-decorator-checker@master
         env:
-          DECORATOR_NAME: NAME # Name of the decorator that should be the outermost decorator if it is used.
+          DECORATOR_NAME: DECORATOR_NAME # Name of the decorator that should be the outermost decorator if it is used.
+          SPECIFIED_DIR: DIR_NAME # Optional environment variable if the checker should only look at files in a specified directory.
 ```
 
 # How it works
