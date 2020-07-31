@@ -1,0 +1,7 @@
+name: Outermost Decorator Checker
+
+description: Github action to ensure that a specified decorator is the outermost decorator for any function.
+
+runs:
+    using: docker
+    image: Dockerfile
