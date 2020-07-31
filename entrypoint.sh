@@ -2,4 +2,4 @@
 
 echo "Hello, World!"
 
-echo $decorator_name
+python /service.py

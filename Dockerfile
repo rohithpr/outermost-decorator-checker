@@ -4,5 +4,6 @@
 FROM python:2.7
 
 COPY entrypoint.sh /entrypoint.sh
+COPY service.py /service.py
 
 ENTRYPOINT [ "/entrypoint.sh" ]
