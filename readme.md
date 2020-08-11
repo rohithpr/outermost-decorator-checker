@@ -38,3 +38,9 @@ have it as the outermost decorator.
 If there are any issues, a message is printed to the console with details of
 offending methods and an exception is raised. At this point of time, a message
 is not posted on the PR itself, but only the status check fails.
+
+#### A successful status check:
+<img width="736" alt="Status Check Success" src="https://user-images.githubusercontent.com/10276811/89878602-5ea0ae00-dbdf-11ea-8ad0-ad7afcd2bd01.png">
+
+#### A failed status check:
+<img width="715" alt="Status Check Fail" src="https://user-images.githubusercontent.com/10276811/89878633-695b4300-dbdf-11ea-94bc-d711878a87b3.png">
